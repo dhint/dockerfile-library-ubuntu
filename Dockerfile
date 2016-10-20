@@ -4,9 +4,7 @@
 # todo: this is pretty much identical to bwstitt/library-ubuntu
 #
 
-{{ $version := "jessie" }}
-
-FROM debian:{{ $version }}
+FROM debian:jessie
 
 ADD ./src/docker-apt-install.sh /usr/local/sbin/docker-apt-install
 
