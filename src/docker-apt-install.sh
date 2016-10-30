@@ -4,7 +4,7 @@
 #
 # the upstream mirror seems to fail a lot so this will retry 5 times
 #
-# todo: this is copypasta with bwstitt/library-ubuntu/src/
+# todo: this is copypasta with baseboxorg/library-ubuntu/src/
 #
 
 set -e
