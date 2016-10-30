@@ -1,7 +1,7 @@
 #
 # A Debian Jessie container with helper scripts for installing packages
 #
-# todo: this is pretty much identical to bwstitt/library-ubuntu
+# todo: this is pretty much identical to baseboxorg/library-ubuntu
 #
 
 FROM debian:jessie
@@ -18,4 +18,4 @@ CMD ["/bin/bash", "-l"]
 
 # Rockerfiles have this, but don't work with Docker Hub
 # ATTACH ["/bin/bash", "-l"]
-# PUSH bwstitt/library-debian:{{ $version }}
+# PUSH baseboxorg/library-debian:{{ $version }}
