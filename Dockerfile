@@ -4,7 +4,7 @@
 # todo: this is pretty much identical to baseboxorg/library-ubuntu
 #
 
-FROM debian:jessie
+FROM ubuntu:16.04
 
 ADD ./src/docker-apt-install.sh /usr/local/sbin/docker-apt-install
 
